@@ -1,0 +1,26 @@
+
+{% extends 'core/base.html' %}
+{% block title %} ACERCA DE... {% endblock %}
+
+{% block background %} {% load static %} {% static 'core/img/about-bg1.jpg'%} {% endblock %}
+{% block headers %} 
+    <h1>Conoce sobre Angel  Cedeño</h1>
+    <span class="subheading">Biografía</span>
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+      <div class="row">   
+        <div class="col-lg-3 col-md-4 offset-lg-1">
+          <img class="img-fluid avatar" src="{% static 'core/img/avatar1.jpeg'%}" alt="">
+        </div>
+        <div class="col-lg-7 col-md-8">
+          <h2 class="section-heading">Angel Cedeño</h2>   
+          <p>Joven Portovejense apasionado a sus sueños, amante de la naturaleza y sus maravillas, le encanta pasear y conocer lugares nuevos.</p>
+          <p>Actualmente estudiante universitario de la majestuosa Universidad Técnica De Manabí, estudia la carrera de Ingenieria en Sistemas Informaticos.</p>
+          <p>Entre sus pasatiempos favoritos se destacan jugar fútbol, leer, entrenar y participar en acciones sociales.</p>
+          <p>:)</p>
+        </div>
+      </div>  
+    </div>
+{% endblock %}
